@@ -13,7 +13,7 @@ class Funcionario(
     var listaFuncionarioAtributo: ArrayList<Funcionario> = ArrayList()
 
     fun nomeCompleto() {
-        println("Olá $nome $sobrenome")
+        println("Dados funcionário - Nome: $nome $sobrenome")
     }
 
     fun calcularSalario() {
@@ -30,12 +30,14 @@ class Funcionario(
     }
 
     fun exibirFuncionariosLista() {
+        println("------- LISTA DE FUNCIONÁRIOS ------")
         listaFuncionarioAtributo.forEach {
             it.nomeCompleto()
         }
     }
 
     fun solicitarQuantidadeFuncionarios(): Int{
+        println("------- QUANTIDADE DE FUNCIONÁRIOS ------")
         println("Quantos funcionários serão cadastrados? ")
         val quantidade = readln().toInt()
 
@@ -43,6 +45,7 @@ class Funcionario(
     }
 
     fun criarFuncionario(): Funcionario {
+        println("------- CADASTRO DE FUNCIONÁRIOS ------")
         println("Digite o nome: ")
         val nomeFuncionario = readln()
 

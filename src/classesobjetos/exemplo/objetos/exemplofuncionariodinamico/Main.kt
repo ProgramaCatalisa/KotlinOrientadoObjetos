@@ -1,19 +1,19 @@
 package classesobjetos.exemplo.objetos.exemplofuncionariodinamico
 
 fun main() {
-    val funcionarioPadrao = Funcionario(
+    val gerenciadorFuncionario = Funcionario(
         "",
         "",
         0.0,
         0.0
     )
 
-    val quantidade = funcionarioPadrao.solicitarQuantidadeFuncionarios()
+    val quantidade = gerenciadorFuncionario.solicitarQuantidadeFuncionarios()
 
     for (i in 1..quantidade) {
-        val funcionarioCadastrado = funcionarioPadrao.criarFuncionario()
-        funcionarioPadrao.inserirFuncionarioLista(funcionarioCadastrado)
+        val funcionarioCadastrado = gerenciadorFuncionario.criarFuncionario()
+        gerenciadorFuncionario.inserirFuncionarioLista(funcionarioCadastrado)
     }
 
-    funcionarioPadrao.exibirFuncionariosLista()
+    gerenciadorFuncionario.exibirFuncionariosLista()
 }
