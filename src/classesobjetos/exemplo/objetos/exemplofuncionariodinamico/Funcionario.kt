@@ -79,6 +79,7 @@ class Funcionario(
     companion object Mensagem{
         fun exibirMensagem(texto: String){
             println(texto)
+            CONSTANTE_NUMERO_UM
         }
     }
 }

@@ -2,6 +2,8 @@ package classesobjetos.exemplo.objetos.exemplofuncionariodinamico
 
 import classesobjetos.exemplo.objetos.exemplofuncionariodinamico.Funcionario.Mensagem.exibirMensagem
 
+const val CONSTANTE_NUMERO_UM = 1
+
 fun main() {
     exibirMensagem("boas vindas do Companion Object")
 
