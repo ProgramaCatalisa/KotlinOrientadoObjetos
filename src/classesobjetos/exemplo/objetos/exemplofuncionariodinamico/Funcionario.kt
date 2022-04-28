@@ -1,16 +1,26 @@
 package classesobjetos.exemplo.objetos.exemplofuncionariodinamico
 
 class Funcionario(
-    nomeParametro: String,
-    sobrenomeParametro: String,
-    horasTrabalhadasParametro: Double,
-    valorPorHoraParametro: Double
+    nomeParametro: String = "",
+    sobrenomeParametro: String = "",
+    horasTrabalhadasParametro: Double = 0.0,
+    valorPorHoraParametro: Double = 0.0
 ) {
     var nome: String = nomeParametro
     var sobrenome: String = sobrenomeParametro
     var horasTrabalhadas: Double = horasTrabalhadasParametro
     var valorPorHora: Double = valorPorHoraParametro
     var listaFuncionarioAtributo: ArrayList<Funcionario> = ArrayList()
+
+    init {
+        if (valorPorHoraParametro >= 100.0){
+            valorPorHora = 100.0
+            println("Ta ganhando bem!!! O valor por hora é $valorPorHora")
+        }else{
+            valorPorHora = valorPorHoraParametro
+            println("Valor ok!!! o valor é $valorPorHora")
+        }
+    }
 
     fun nomeCompleto() {
         println("Dados funcionário - Nome: $nome $sobrenome")
@@ -64,5 +74,11 @@ class Funcionario(
             horasTrabalhadasParametro = horasTrabalhadasFuncionario,
             valorPorHoraParametro = valorHoraFuncionario
         )
+    }
+
+    companion object Mensagem{
+        fun exibirMensagem(texto: String){
+            println(texto)
+        }
     }
 }

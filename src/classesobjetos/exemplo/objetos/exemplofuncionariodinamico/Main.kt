@@ -1,12 +1,11 @@
 package classesobjetos.exemplo.objetos.exemplofuncionariodinamico
 
+import classesobjetos.exemplo.objetos.exemplofuncionariodinamico.Funcionario.Mensagem.exibirMensagem
+
 fun main() {
-    val gerenciadorFuncionario = Funcionario(
-        "",
-        "",
-        0.0,
-        0.0
-    )
+    exibirMensagem("boas vindas do Companion Object")
+
+    val gerenciadorFuncionario = Funcionario()
 
     val quantidade = gerenciadorFuncionario.solicitarQuantidadeFuncionarios()
 
@@ -16,4 +15,6 @@ fun main() {
     }
 
     gerenciadorFuncionario.exibirFuncionariosLista()
+
+    exibirMensagem("Acabou o programa! Tchau!")
 }
