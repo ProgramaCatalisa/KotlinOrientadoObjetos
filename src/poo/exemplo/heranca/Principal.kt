@@ -1,7 +1,12 @@
 package poo.exemplo.heranca
 
+import poo.exemplo.heranca.Gato
+import poo.exemplo.heranca.Peixe
+import poo.exemplo.heranca.PessoaTutora
+
 fun main() {
     /*Aula de herança e composição*/
+
     val jessica: PessoaTutora = PessoaTutora("Jessica", "email2@email.com")
     val mingau: Gato = Gato("mingau",
             "gato",
