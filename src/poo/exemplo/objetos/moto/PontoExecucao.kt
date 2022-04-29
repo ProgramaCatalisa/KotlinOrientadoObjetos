@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.objetos.moto
+package poo.exemplo.objetos.moto
 
 /**
 * Função principal do Kotlin

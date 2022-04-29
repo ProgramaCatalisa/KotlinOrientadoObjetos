@@ -1,6 +1,4 @@
-package classesobjetos.exemplo.objetos.carro
-
-import classesobjetos.exemplo.objetos.carro.Carro
+package poo.exemplo.objetos.carro
 
 /**
  * Função principal do Kotlin

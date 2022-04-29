@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.objetos.moto
+package poo.exemplo.objetos.moto
 
 /**
  * Declaração da classe Moto passando os atributos

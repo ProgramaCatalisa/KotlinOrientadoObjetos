@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.encapsulamento
+package poo.exemplo.encapsulamento
 
 fun main() {
     val calculadora = Calculadora(100, 5, 50)

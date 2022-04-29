@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.objetos.exerciciofuncionario
+package poo.exemplo.objetos.exerciciofuncionario
 
 fun main() {
     val novoFuncionario: Funcionario = Funcionario()

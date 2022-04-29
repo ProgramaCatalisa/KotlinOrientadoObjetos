@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.objetos.exemplofuncionariodinamico
+package poo.exemplo.objetos.exemplofuncionariodinamico
 
 class Funcionario(
     nomeParametro: String = "",
