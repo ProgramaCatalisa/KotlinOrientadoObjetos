@@ -1,8 +1,9 @@
-package classesobjetos.exemplo.petshopheranca
+package poo.exemplo.heranca
 
 open class Animal(val nomeAnimal: String, val especie: String, val tipoAlimentacao: String,
                   val cor: String, val tamanho: String,
-                  val idade: Int, val peso: Double, val pessoaTutora: PessoaTutora) {
+                  val idade: Int, val peso: Double, val pessoaTutora: PessoaTutora
+) {
 
     protected fun comunicar() {
         println("Estou me comunicando")

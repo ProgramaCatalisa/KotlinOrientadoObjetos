@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.objetos.carro
+package poo.exemplo.objetos.carro
 
 /**
  * Declaração da classe Carro passando os parametros

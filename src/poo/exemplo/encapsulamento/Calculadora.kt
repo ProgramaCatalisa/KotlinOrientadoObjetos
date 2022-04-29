@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.encapsulamento
+package poo.exemplo.encapsulamento
 
 /**
  * Exemplo de declaração de atributo com visibilidade private

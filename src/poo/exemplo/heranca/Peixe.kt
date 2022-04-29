@@ -1,7 +1,4 @@
-package classesobjetos.exemplo.petshopheranca
-
-import classesobjetos.exemplo.petshopheranca.Animal
-import classesobjetos.exemplo.petshopheranca.PessoaTutora
+package poo.exemplo.heranca
 
 class Peixe(nomeAnimal: String, especie: String,
             tipoAlimentacao: String,

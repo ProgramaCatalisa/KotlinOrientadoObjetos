@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.objetos.exerciciofuncionario
+package poo.exemplo.objetos.exerciciofuncionario
 
 class Funcionario {
     var nome: String = ""

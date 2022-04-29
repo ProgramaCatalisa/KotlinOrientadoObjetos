@@ -1,6 +1,6 @@
-package classesobjetos.exemplo.objetos.exemplofuncionariodinamico
+package poo.exemplo.objetos.exemplofuncionariodinamico
 
-import classesobjetos.exemplo.objetos.exemplofuncionariodinamico.Funcionario.Mensagem.exibirMensagem
+import poo.exemplo.objetos.exemplofuncionariodinamico.Funcionario.Mensagem.exibirMensagem
 
 const val CONSTANTE_NUMERO_UM = 1
 

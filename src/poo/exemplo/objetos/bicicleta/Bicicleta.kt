@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.objetos.bicicleta
+package poo.exemplo.objetos.bicicleta
 
 /**
  * Declaração da classe Bicicleta

@@ -1,4 +1,4 @@
-package classesobjetos.exemplo.petshopheranca
+package poo.exemplo.heranca
 
 class PessoaTutora(val nome:String, val email:String) {
 }
