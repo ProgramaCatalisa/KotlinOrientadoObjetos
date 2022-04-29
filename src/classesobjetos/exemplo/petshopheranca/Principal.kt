@@ -2,7 +2,6 @@ package classesobjetos.exemplo.petshopheranca
 
 fun main() {
     /*Aula de herança e composição*/
-
     val jessica: PessoaTutora = PessoaTutora("Jessica", "email2@email.com")
     val mingau: Gato = Gato("mingau",
             "gato",
