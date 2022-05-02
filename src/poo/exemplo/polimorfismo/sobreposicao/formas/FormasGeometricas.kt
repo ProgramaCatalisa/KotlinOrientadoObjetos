@@ -1,4 +1,4 @@
-package poo.exemplo.polimorfismo.sobreposicao
+package poo.exemplo.polimorfismo.sobreposicao.formas
 
 open class FormasGeometricas {
 

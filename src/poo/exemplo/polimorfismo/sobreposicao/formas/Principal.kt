@@ -1,4 +1,4 @@
-package poo.exemplo.polimorfismo.sobreposicao
+package poo.exemplo.polimorfismo.sobreposicao.formas
 
 fun main() {
     val circulo: FormasGeometricas = Circulo(2.0)
