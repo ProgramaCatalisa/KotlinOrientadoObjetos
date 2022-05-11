@@ -12,8 +12,7 @@ fun main() {
         println("O resultado é: $resultado")
 
     } catch (exception: Exception) {
-        println("Causa: ${exception.cause}")
-        println("Mensagem: ${exception.message}")
+        exception.message
     }
     finally {
         println("Obrigada por usar o sistema!")
