@@ -1,4 +1,4 @@
-package poo.exemplo.srp.exercicio4lista23
+package poo.exemplo.srp.exercicio4lista23.versaocompleta.classes
 
 class GerenciadorObjeto {
     private val dicionarioObjeto = mutableMapOf<ChaveObjeto, Cor>()

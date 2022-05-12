@@ -1,4 +1,4 @@
-package poo.exemplo.srp.exercicio4lista23.simplificado
+package poo.exemplo.srp.exercicio4lista23.versaosimplificado
 
 fun main() {
     val dicionarioObjetos = mutableMapOf<String, String>()
